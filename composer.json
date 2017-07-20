@@ -1,6 +1,6 @@
 {
   "name": "mattedesign/magento2-tax-code-privacy-policy",
-  "description": "This module adds checkboxes for EU privacy policy law",
+  "description": "Questo modulo aggiunge la gestione del codice fiscale/partita iva e l'accettazione della privacy policy",
   "authors": [
     {
       "name": "Matteo Nieddu",
