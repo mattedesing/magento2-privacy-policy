@@ -1,0 +1,26 @@
+{
+  "name": "mattedesign/magento2-tax-code-privacy-policy",
+  "description": "This module adds checkboxes for EU privacy policy law",
+  "authors": [
+    {
+      "name": "Matteo Nieddu",
+      "email": "dev@mattedesign.it",
+      "homepage": "http://www.mattedesign.it"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-customer": "100.0.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MatteDesign\\TaxCodePrivacyPolicy\\": ""
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="privacy_policy" translate="label" type="text" sortOrder="99" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Privacy Policy</label>
+            <tab>customer</tab>
+            <resource>MatteDesign_TaxCodePrivacyPolicy::privacypolicy</resource>
+            <group id="module_settings" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Settings</label>
+                <field id="cms_page" translate="label" type="select" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>CMS Privacy Page</label>
+                    <source_model>Magento\Cms\Model\Config\Source\Page</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
