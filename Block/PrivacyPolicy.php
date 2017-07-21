@@ -1,6 +1,6 @@
 <?php
 
-namespace MatteDesign\TaxCodePrivacyPolicy\Block;
+namespace MatteDesign\PrivacyPolicy\Block;
 
 class PrivacyPolicy extends \Magento\Framework\View\Element\Template
 {
@@ -16,7 +16,7 @@ class PrivacyPolicy extends \Magento\Framework\View\Element\Template
 
     public function isPrivacyPolicyEnabled()
     {
-        return $this->_moduleManager->isOutputEnabled('MatteDesign_TaxCodePrivacyPolicy');
+        return $this->_moduleManager->isOutputEnabled('MatteDesign_PrivacyPolicy');
     }
 
     public function getDisplayMode()

@@ -3,7 +3,7 @@
     <body>
         <referenceContainer name="content">
             <referenceBlock name="form.additional.info">
-                <block class="MatteDesign\TaxCodePrivacyPolicy\Block\PrivacyPolicy" name="privacy" template="MatteDesign_TaxCodePrivacyPolicy::form/privacy-block.phtml" />
+                <block class="MatteDesign\PrivacyPolicy\Block\PrivacyPolicy" name="privacy" template="MatteDesign_PrivacyPolicy::form/privacy-block.phtml" />
             </referenceBlock>
         </referenceContainer>
     </body>

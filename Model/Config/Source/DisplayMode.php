@@ -1,6 +1,6 @@
 <?php
 
-namespace MatteDesign\TaxCodePrivacyPolicy\Model\Config\Source;
+namespace MatteDesign\PrivacyPolicy\Model\Config\Source;
 
 class DisplayMode implements \Magento\Framework\Option\ArrayInterface
 {

@@ -6,6 +6,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'MatteDesign_TaxCodePrivacyPolicy',
+    'MatteDesign_PrivacyPolicy',
     __DIR__
 );

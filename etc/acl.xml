@@ -8,7 +8,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="MatteDesign_TaxCodePrivacyPolicy::privacypolicy" title="PrivacyPolicy Section"/>
+                            <resource id="MatteDesign_PrivacyPolicy::privacypolicy" title="PrivacyPolicy Section"/>
                         </resource>
                     </resource>
                 </resource>
